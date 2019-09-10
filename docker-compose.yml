@@ -1,0 +1,25 @@
+version: '3.1'
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: docker-dev/web.docker
+    container_name: web
+    links:
+      - clj
+    ports:
+      - "80:80"
+    volumes:
+      - ./resources/public:/var/www
+  clj:
+    build:
+      context: ./
+      dockerfile: docker-dev/clj.docker
+    container_name: clj
+    ports:
+        - "3000:3000"
+        - "9500:9500"
+        - "7888:7888"
+    volumes:
+      - .:/usr/src/full-stack-clj-docker
+      - ./docker-dev/m2cache:/root/.m2

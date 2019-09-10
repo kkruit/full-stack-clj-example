@@ -1,4 +1,9 @@
-{:main          full-stack-clj-example.core
+^{;These options overwrite figwheel-main.edn
+  :hawk-options {:watcher :polling}
+  :mode :serve
+  :open-url false
+  :log-level :all}
+{:main          full-stack-clj-docker.core
  :optimizations :none
  :output-to     "resources/public/main.js"
  :output-dir    "resources/public/main.out"}

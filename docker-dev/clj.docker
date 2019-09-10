@@ -1,0 +1,7 @@
+FROM clojure:tools-deps
+
+WORKDIR /usr/src/full-stack-clj-docker
+
+#CMD ["sh", "-c", "sleep 1 && exec clj -A:cljs:dev"]
+#CMD ["sh"]
+CMD ["./docker-dev/start-clj.sh"]

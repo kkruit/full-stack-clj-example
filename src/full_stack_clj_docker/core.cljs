@@ -1,4 +1,4 @@
-(ns full-stack-clj-example.core
+(ns full-stack-clj-docker.core
   (:require [reagent.core :as r]))
 
 (defn content [state]

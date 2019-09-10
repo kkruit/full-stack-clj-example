@@ -10,6 +10,6 @@ This is a sample project that demonstrates how to create a full stack (Clojure +
 ## Contents
 
 * `resources` The assets
-* `src/full_stack_clj_example/core.clj` The server-side code
-* `src/full_stack_clj_example/core.cljs` The client-side code
-* `src/full_stack_clj_example/utils.cljc` The client and server agnostic code
+* `src/full_stack_clj_docker/core.clj` The server-side code
+* `src/full_stack_clj_docker/core.cljs` The client-side code
+* `src/full_stack_clj_docker/utils.cljc` The client and server agnostic code

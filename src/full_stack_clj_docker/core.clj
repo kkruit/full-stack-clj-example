@@ -1,4 +1,4 @@
-(ns full-stack-clj-example.core
+(ns full-stack-clj-docker.core
   (:require [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.file :refer [wrap-file]]
             [ring.middleware.resource :refer [wrap-resource]]

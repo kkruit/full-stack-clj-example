@@ -1,0 +1,6 @@
+ FROM nginx:1.17
+
+ # copy site.conf from local directory to /etc/nginx/conf.d/default.conf
+ ADD ./docker-dev/dev-nginx.conf /etc/nginx/conf.d/default.conf
+
+ WORKDIR /var/www
