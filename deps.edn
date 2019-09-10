@@ -5,7 +5,7 @@
         org.eclipse.jetty.websocket/websocket-server {:mvn/version "9.4.12.v20180830"}}
  :aliases {:cljs {:extra-deps {org.clojure/clojurescript {:mvn/version "1.10.520"}
                                reagent {:mvn/version "0.8.1"}
-			      com.bhauman/figwheel-main {:mvn/version "0.2.0"} }}
+			      com.bhauman/figwheel-main {:mvn/version "0.2.3"} }}
            :dev {:extra-deps {
 															nrepl/nrepl {:mvn/version "0.6.0"}
 															cider/piggieback {:mvn/version "0.4.1"}
